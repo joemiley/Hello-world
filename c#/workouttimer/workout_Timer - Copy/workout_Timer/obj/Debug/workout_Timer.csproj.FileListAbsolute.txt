@@ -1,0 +1,10 @@
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\bin\Debug\workout_Timer.exe.config
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\bin\Debug\workout_Timer.exe
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\bin\Debug\workout_Timer.pdb
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.Form1.resources
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.Properties.Resources.resources
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.exe
+C:\Users\Rando\Desktop\coding\c#\workout_Timer\workout_Timer\obj\Debug\workout_Timer.pdb
