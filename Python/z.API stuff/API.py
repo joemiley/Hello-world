@@ -11,7 +11,7 @@ root = Tk()
 # the title of the window
 root.title("Randombrooms weather app")
 # where the icon is you would like to use for the window and its path location
-root.iconbitmap("C:/Users/Rando/Desktop/coding/Python/images/weather.ico")
+root.iconbitmap("C:/Users/Rando/Desktop/coding/Hello-world/Python/images/weather.ico")
 # size of the window
 root.geometry("400x40")
 
