@@ -1,0 +1,11 @@
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\bin\Debug\netcoreapp2.1\cs rpg game.deps.json
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\bin\Debug\netcoreapp2.1\cs rpg game.runtimeconfig.json
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\bin\Debug\netcoreapp2.1\cs rpg game.runtimeconfig.dev.json
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\bin\Debug\netcoreapp2.1\cs rpg game.dll
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\bin\Debug\netcoreapp2.1\cs rpg game.pdb
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\obj\Debug\netcoreapp2.1\cs rpg game.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\obj\Debug\netcoreapp2.1\cs rpg game.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\obj\Debug\netcoreapp2.1\cs rpg game.AssemblyInfoInputs.cache
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\obj\Debug\netcoreapp2.1\cs rpg game.AssemblyInfo.cs
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\obj\Debug\netcoreapp2.1\cs rpg game.dll
+C:\Users\Toshiba\Desktop\coding\cs rpg game\cs rpg game\obj\Debug\netcoreapp2.1\cs rpg game.pdb

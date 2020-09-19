@@ -1,0 +1,5 @@
+/Users/maskaro/Projects/BooleanSelection_2017_Sem12/BooleanSelection_2017_Sem12/bin/Debug/BooleanSelection_2017_Sem12.exe
+/Users/maskaro/Projects/BooleanSelection_2017_Sem12/BooleanSelection_2017_Sem12/bin/Debug/BooleanSelection_2017_Sem12.pdb
+/Users/maskaro/Projects/BooleanSelection_2017_Sem12/BooleanSelection_2017_Sem12/obj/x86/Debug/BooleanSelection_2017_Sem12.csproj.CoreCompileInputs.cache
+/Users/maskaro/Projects/BooleanSelection_2017_Sem12/BooleanSelection_2017_Sem12/obj/x86/Debug/BooleanSelection_2017_Sem12.exe
+/Users/maskaro/Projects/BooleanSelection_2017_Sem12/BooleanSelection_2017_Sem12/obj/x86/Debug/BooleanSelection_2017_Sem12.pdb

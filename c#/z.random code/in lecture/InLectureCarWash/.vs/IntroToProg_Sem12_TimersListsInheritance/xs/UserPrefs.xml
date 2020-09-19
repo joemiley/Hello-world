@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F9FC1C36-0B40-4924-BE4B-CA155C29379C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntroToProg_Sem12_TimersListsInheritance/Program.cs">
+    <Files>
+      <File FileName="IntroToProg_Sem12_TimersListsInheritance/Program.cs" Line="197" Column="17" />
+      <File FileName="IntroToProg_Sem12_TimersListsInheritance/Vehicle.cs" Line="33" Column="42" />
+      <File FileName="IntroToProg_Sem12_TimersListsInheritance/Car.cs" Line="26" Column="55" />
+      <File FileName="IntroToProg_Sem12_TimersListsInheritance/Van.cs" Line="26" Column="43" />
+      <File FileName="IntroToProg_Sem12_TimersListsInheritance/Transaction.cs" Line="35" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.IntroToProg__Sem12__TimersListsInheritance PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

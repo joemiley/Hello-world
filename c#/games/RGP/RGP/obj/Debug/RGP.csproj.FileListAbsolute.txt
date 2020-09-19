@@ -1,0 +1,11 @@
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\bin\Debug\RGP.exe.config
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\bin\Debug\RGP.exe
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\bin\Debug\RGP.pdb
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.CharacterCreator.resources
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.frm_Menu.resources
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.Properties.Resources.resources
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.csproj.GenerateResource.cache
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.exe
+C:\Users\Toshiba\Desktop\coding\RGP\RGP\obj\Debug\RGP.pdb

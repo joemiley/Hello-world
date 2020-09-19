@@ -1,0 +1,14 @@
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\bin\Debug\matrix3.exe.config
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\bin\Debug\matrix3.exe
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\bin\Debug\matrix3.pdb
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\obj\Debug\matrix3.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\obj\Debug\matrix3.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\obj\Debug\matrix3.exe
+C:\Users\Toshiba\Desktop\coding\matrix3\matrix3\obj\Debug\matrix3.pdb
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\bin\Debug\matrix3.exe.config
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\bin\Debug\matrix3.exe
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\bin\Debug\matrix3.pdb
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\obj\Debug\matrix3.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\obj\Debug\matrix3.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\obj\Debug\matrix3.exe
+C:\Users\Toshiba\Desktop\coding\matrix3(workInProgress)\matrix3\obj\Debug\matrix3.pdb

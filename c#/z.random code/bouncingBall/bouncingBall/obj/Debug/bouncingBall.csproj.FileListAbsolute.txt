@@ -1,0 +1,20 @@
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\bin\Debug\bouncingBall.exe.config
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\bin\Debug\bouncingBall.exe
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\bin\Debug\bouncingBall.pdb
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.Form1.resources
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.Properties.Resources.resources
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.csproj.GenerateResource.cache
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.exe
+C:\Users\Toshiba\Desktop\coding\bouncingBall\bouncingBall\obj\Debug\bouncingBall.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\bin\Debug\bouncingBall.exe.config
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\bin\Debug\bouncingBall.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\bin\Debug\bouncingBall.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.Form1.resources
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.Properties.Resources.resources
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\z.random code\bouncingBall\bouncingBall\obj\Debug\bouncingBall.pdb

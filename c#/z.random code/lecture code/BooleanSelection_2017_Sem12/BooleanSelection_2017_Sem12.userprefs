@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{AF2CE515-273F-4977-8333-34E9D1E5A897}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BooleanSelection_2017_Sem12/Program.cs">
+    <Files>
+      <File FileName="BooleanSelection_2017_Sem12/Program.cs" Line="20" Column="68" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

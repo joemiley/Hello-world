@@ -1,0 +1,6 @@
+c:\users\cristina\documents\visual studio 2015\Projects\ArraysExample\ArraysExample\bin\Debug\ArraysExample.exe.config
+c:\users\cristina\documents\visual studio 2015\Projects\ArraysExample\ArraysExample\bin\Debug\ArraysExample.exe
+c:\users\cristina\documents\visual studio 2015\Projects\ArraysExample\ArraysExample\bin\Debug\ArraysExample.pdb
+c:\users\cristina\documents\visual studio 2015\Projects\ArraysExample\ArraysExample\obj\Debug\ArraysExample.csprojResolveAssemblyReference.cache
+c:\users\cristina\documents\visual studio 2015\Projects\ArraysExample\ArraysExample\obj\Debug\ArraysExample.exe
+c:\users\cristina\documents\visual studio 2015\Projects\ArraysExample\ArraysExample\obj\Debug\ArraysExample.pdb

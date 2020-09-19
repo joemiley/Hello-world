@@ -1,0 +1,11 @@
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\bin\Debug\netcoreapp2.1\lavalamp.deps.json
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\bin\Debug\netcoreapp2.1\lavalamp.runtimeconfig.json
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\bin\Debug\netcoreapp2.1\lavalamp.runtimeconfig.dev.json
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\bin\Debug\netcoreapp2.1\lavalamp.dll
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\bin\Debug\netcoreapp2.1\lavalamp.pdb
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\obj\Debug\netcoreapp2.1\lavalamp.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\obj\Debug\netcoreapp2.1\lavalamp.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\obj\Debug\netcoreapp2.1\lavalamp.AssemblyInfoInputs.cache
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\obj\Debug\netcoreapp2.1\lavalamp.AssemblyInfo.cs
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\obj\Debug\netcoreapp2.1\lavalamp.dll
+C:\Users\Toshiba\Desktop\coding\lavalamp\lavalamp\obj\Debug\netcoreapp2.1\lavalamp.pdb

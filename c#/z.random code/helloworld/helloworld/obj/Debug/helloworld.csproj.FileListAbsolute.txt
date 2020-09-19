@@ -1,0 +1,7 @@
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\bin\Debug\helloworld.exe.config
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\bin\Debug\helloworld.exe
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\bin\Debug\helloworld.pdb
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\obj\Debug\helloworld.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\obj\Debug\helloworld.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\obj\Debug\helloworld.exe
+C:\Users\Toshiba\Desktop\coding\helloworld\helloworld\obj\Debug\helloworld.pdb

@@ -1,0 +1,19 @@
+/Users/maskaro/Projects/Assignment_2_PetrolStation/Assignment_2_PetrolStation/bin/Debug/Assignment_2_PetrolStation.exe
+/Users/maskaro/Projects/Assignment_2_PetrolStation/Assignment_2_PetrolStation/bin/Debug/Assignment_2_PetrolStation.pdb
+/Users/maskaro/Projects/Assignment_2_PetrolStation/Assignment_2_PetrolStation/obj/x86/Debug/Assignment_2_PetrolStation.csproj.CoreCompileInputs.cache
+/Users/maskaro/Projects/Assignment_2_PetrolStation/Assignment_2_PetrolStation/obj/x86/Debug/Assignment_2_PetrolStation.exe
+/Users/maskaro/Projects/Assignment_2_PetrolStation/Assignment_2_PetrolStation/obj/x86/Debug/Assignment_2_PetrolStation.pdb
+Z:\Projects\Assignment_2_PetrolStation\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.exe
+Z:\Projects\Assignment_2_PetrolStation\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.pdb
+C:\Users\Toshiba\Desktop\petrol skeleton\Assignment_2_PetrolStation\Assignment_2_PetrolStation\bin\Debug\Assignment_2_PetrolStation.exe
+C:\Users\Toshiba\Desktop\petrol skeleton\Assignment_2_PetrolStation\Assignment_2_PetrolStation\bin\Debug\Assignment_2_PetrolStation.pdb
+C:\Users\Toshiba\Desktop\petrol skeleton\Assignment_2_PetrolStation\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\petrol skeleton\Assignment_2_PetrolStation\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\petrol skeleton\Assignment_2_PetrolStation\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.exe
+C:\Users\Toshiba\Desktop\petrol skeleton\Assignment_2_PetrolStation\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.pdb
+C:\Users\Toshiba\Desktop\petrol station display example\Assignment_2_PetrolStation\bin\Debug\Assignment_2_PetrolStation.exe
+C:\Users\Toshiba\Desktop\petrol station display example\Assignment_2_PetrolStation\bin\Debug\Assignment_2_PetrolStation.pdb
+C:\Users\Toshiba\Desktop\petrol station display example\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\petrol station display example\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\petrol station display example\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.exe
+C:\Users\Toshiba\Desktop\petrol station display example\Assignment_2_PetrolStation\obj\x86\Debug\Assignment_2_PetrolStation.pdb

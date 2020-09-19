@@ -1,0 +1,7 @@
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\bin\Debug\workbench.exe.config
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\bin\Debug\workbench.exe
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\bin\Debug\workbench.pdb
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\obj\Debug\workbench.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\obj\Debug\workbench.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\obj\Debug\workbench.exe
+C:\Users\Toshiba\Desktop\coding\workbench\workbench\obj\Debug\workbench.pdb

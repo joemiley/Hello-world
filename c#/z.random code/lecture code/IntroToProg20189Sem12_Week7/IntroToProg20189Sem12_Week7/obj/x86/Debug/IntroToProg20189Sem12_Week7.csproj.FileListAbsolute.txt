@@ -1,0 +1,6 @@
+/Users/maskaro/Projects/IntroToProg20189Sem12_Week7/IntroToProg20189Sem12_Week7/bin/Debug/IntroToProg20189Sem12_Week7.exe
+/Users/maskaro/Projects/IntroToProg20189Sem12_Week7/IntroToProg20189Sem12_Week7/bin/Debug/IntroToProg20189Sem12_Week7.pdb
+/Users/maskaro/Projects/IntroToProg20189Sem12_Week7/IntroToProg20189Sem12_Week7/obj/x86/Debug/IntroToProg20189Sem12_Week7.csprojAssemblyReference.cache
+/Users/maskaro/Projects/IntroToProg20189Sem12_Week7/IntroToProg20189Sem12_Week7/obj/x86/Debug/IntroToProg20189Sem12_Week7.csproj.CoreCompileInputs.cache
+/Users/maskaro/Projects/IntroToProg20189Sem12_Week7/IntroToProg20189Sem12_Week7/obj/x86/Debug/IntroToProg20189Sem12_Week7.exe
+/Users/maskaro/Projects/IntroToProg20189Sem12_Week7/IntroToProg20189Sem12_Week7/obj/x86/Debug/IntroToProg20189Sem12_Week7.pdb

@@ -1,0 +1,11 @@
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\bin\Debug\Notepad_X.exe.config
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\bin\Debug\Notepad_X.exe
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\bin\Debug\Notepad_X.pdb
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.csprojAssemblyReference.cache
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.Properties.Resources.resources
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.csproj.GenerateResource.cache
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.csproj.CoreCompileInputs.cache
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.exe
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.pdb
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.Form1.resources
+E:\VS2017\MOD003212_2018_Sem12\Notepad_X\Notepad_X\obj\Debug\Notepad_X.Form2.resources

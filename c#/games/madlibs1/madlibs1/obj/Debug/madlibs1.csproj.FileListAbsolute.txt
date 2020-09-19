@@ -1,0 +1,7 @@
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\bin\Debug\madlibs1.exe.config
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\bin\Debug\madlibs1.exe
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\bin\Debug\madlibs1.pdb
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\obj\Debug\madlibs1.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\obj\Debug\madlibs1.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\obj\Debug\madlibs1.exe
+C:\Users\Toshiba\Desktop\coding\madlibs1\madlibs1\obj\Debug\madlibs1.pdb

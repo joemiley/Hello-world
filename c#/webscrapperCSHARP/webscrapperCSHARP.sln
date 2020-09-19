@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webscrapperCSHARP", "webscrapperCSHARP\webscrapperCSHARP.csproj", "{0438D3DE-9C07-43B8-8C36-FAB6BB15B7FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0438D3DE-9C07-43B8-8C36-FAB6BB15B7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0438D3DE-9C07-43B8-8C36-FAB6BB15B7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0438D3DE-9C07-43B8-8C36-FAB6BB15B7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0438D3DE-9C07-43B8-8C36-FAB6BB15B7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB9C2C8-CD4C-4EC5-AA13-2A727B173424}
+	EndGlobalSection
+EndGlobal

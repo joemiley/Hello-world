@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lavalamp", "lavalamp\lavalamp.csproj", "{C1AB97B4-4D15-4A90-8728-901543F5CE7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1AB97B4-4D15-4A90-8728-901543F5CE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AB97B4-4D15-4A90-8728-901543F5CE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AB97B4-4D15-4A90-8728-901543F5CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AB97B4-4D15-4A90-8728-901543F5CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C35A2AA3-DFDD-40D9-A608-A8579C3E5202}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\bin\Debug\Screen_Shot.exe.config
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\bin\Debug\Screen_Shot.exe
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\bin\Debug\Screen_Shot.pdb
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.Form1.resources
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.Properties.Resources.resources
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csproj.GenerateResource.cache
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.exe
+C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.Form1.resources
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.Properties.Resources.resources
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.pdb

@@ -1,0 +1,10 @@
+C:\Users\Toshiba\Desktop\coding\clock\clock\bin\Debug\clock.exe.config
+C:\Users\Toshiba\Desktop\coding\clock\clock\bin\Debug\clock.exe
+C:\Users\Toshiba\Desktop\coding\clock\clock\bin\Debug\clock.pdb
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.Form1.resources
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.Properties.Resources.resources
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.csproj.GenerateResource.cache
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.exe
+C:\Users\Toshiba\Desktop\coding\clock\clock\obj\Debug\clock.pdb

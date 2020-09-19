@@ -1,0 +1,7 @@
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\bin\Debug\colourRing.exe.config
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\bin\Debug\colourRing.exe
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\bin\Debug\colourRing.pdb
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\obj\Debug\colourRing.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\obj\Debug\colourRing.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\obj\Debug\colourRing.exe
+C:\Users\Toshiba\Desktop\coding\colourRing\colourRing\obj\Debug\colourRing.pdb

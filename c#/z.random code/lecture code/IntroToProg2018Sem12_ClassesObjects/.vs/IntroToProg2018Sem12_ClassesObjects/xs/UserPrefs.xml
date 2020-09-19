@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{C4F67BAD-FF03-46FA-BD2B-52E2CBC84BC2}|Default">
+  <MonoDevelop.Ide.ItemProperties.IntroToProg2018Sem12__ClassesObjects PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntroToProg2018Sem12_ClassesObjects/Module.cs">
+    <Files>
+      <File FileName="IntroToProg2018Sem12_ClassesObjects/Program.cs" Line="338" Column="47" />
+      <File FileName="IntroToProg2018Sem12_ClassesObjects/Student.cs" Line="12" Column="36" />
+      <File FileName="IntroToProg2018Sem12_ClassesObjects/Module.cs" Line="35" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

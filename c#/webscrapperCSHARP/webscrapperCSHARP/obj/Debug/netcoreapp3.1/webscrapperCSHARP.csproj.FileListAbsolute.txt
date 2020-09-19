@@ -1,0 +1,11 @@
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\bin\Debug\netcoreapp3.1\webscrapperCSHARP.exe
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\bin\Debug\netcoreapp3.1\webscrapperCSHARP.deps.json
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\bin\Debug\netcoreapp3.1\webscrapperCSHARP.runtimeconfig.json
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\bin\Debug\netcoreapp3.1\webscrapperCSHARP.runtimeconfig.dev.json
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\bin\Debug\netcoreapp3.1\webscrapperCSHARP.dll
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\bin\Debug\netcoreapp3.1\webscrapperCSHARP.pdb
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\obj\Debug\netcoreapp3.1\webscrapperCSHARP.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\obj\Debug\netcoreapp3.1\webscrapperCSHARP.AssemblyInfoInputs.cache
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\obj\Debug\netcoreapp3.1\webscrapperCSHARP.AssemblyInfo.cs
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\obj\Debug\netcoreapp3.1\webscrapperCSHARP.dll
+C:\Users\Toshiba\Desktop\coding\webscrapperCSHARP\webscrapperCSHARP\obj\Debug\netcoreapp3.1\webscrapperCSHARP.pdb

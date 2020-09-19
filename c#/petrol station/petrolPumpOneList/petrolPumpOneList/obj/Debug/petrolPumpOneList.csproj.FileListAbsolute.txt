@@ -1,0 +1,7 @@
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\bin\Debug\petrolPumpOneList.exe.config
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\bin\Debug\petrolPumpOneList.exe
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\bin\Debug\petrolPumpOneList.pdb
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\obj\Debug\petrolPumpOneList.csprojAssemblyReference.cache
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\obj\Debug\petrolPumpOneList.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\obj\Debug\petrolPumpOneList.exe
+C:\Users\Toshiba\Desktop\coding\petrolPumpOneList\petrolPumpOneList\obj\Debug\petrolPumpOneList.pdb

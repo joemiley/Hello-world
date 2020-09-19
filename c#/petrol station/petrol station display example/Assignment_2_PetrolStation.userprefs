@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{57EDA4EF-853D-4E84-B054-3781828951AD}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assignment__2__PetrolStation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_2_PetrolStation/Vehicle.cs">
+    <Files>
+      <File FileName="Assignment_2_PetrolStation/Data.cs" Line="1" Column="1" />
+      <File FileName="Assignment_2_PetrolStation/Display.cs" Line="1" Column="1" />
+      <File FileName="Assignment_2_PetrolStation/Program.cs" Line="1" Column="1" />
+      <File FileName="Assignment_2_PetrolStation/Pump.cs" Line="1" Column="1" />
+      <File FileName="Assignment_2_PetrolStation/Vehicle.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
