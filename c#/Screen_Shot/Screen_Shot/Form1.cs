@@ -23,7 +23,7 @@ namespace Screen_Shot
         public int counter = +0;
 
         [DllImport("user32.dll", EntryPoint = "SetCursorPos")]
-        private static extern bool SetCursorPos(int x, int y);C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\Program.cs
+        private static extern bool SetCursorPos(int x, int y);
 
         [DllImport("user32.dll")]
         public static extern void mouse_event(int dwflags, int dx, int dy, int cButtons, int dwExtraInfo);
@@ -46,13 +46,16 @@ namespace Screen_Shot
             Rectangle screen = Screen.GetBounds(Point.Empty);
 
             //using the bitmap function built in and naming it with the screen variable dimentions 
-            using (Bitmap bitmap = new Bitmap(screen.Width, screen.Height))
+            using (Bitmap bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height))
             {
                 //creating an image from the bitmap
                 using (Graphics g = Graphics.FromImage(bitmap))
                 {
                     //using the "CopyFromScreen" function to populate the bitmap
-                    g.CopyFromScreen(Point.Empty, Point.Empty, screen.Size);
+
+                    //g.CopyFromScreen(Point.Empty, Point.Empty, screen.Size);
+                    g.CopyFromScreen(0, 0, 0, 0, bitmap.Size);
+
                 }
 
                 //saving the bitmap with a counter and a name
@@ -63,10 +66,10 @@ namespace Screen_Shot
                 string fileName = "screen_" + counter.ToString() + ".PNG";
 
                 //where the original file is
-                string sourcePath = @"C:\Users\Toshiba\Desktop\coding\Screen_Shot\Screen_Shot\bin\Debug\" + fileName;
+                string sourcePath = @"C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\bin\Debug\" + fileName;
 
                 //where you would like to move the original file
-                string targetPath = @"C:\Users\Toshiba\Desktop\coding\Screen_Shot\screen_shot_bin\" + fileName;
+                string targetPath = @"C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\screen_shot_bin\" + fileName;
 
 
                 //copies an existing file to a new address and will over write anything with the same name
@@ -92,14 +95,14 @@ namespace Screen_Shot
         private void Button2findPixelLocation_MouseClick(object sender, MouseEventArgs e)
         {
             //got it (needs to have the file type at the end or its invalid(.PNG))
-            string pictureFile1 = @"C:\Users\Toshiba\Desktop\coding\Screen_Shot\screen_shot_bin\screen_"+ counter.ToString()+".PNG";
+            string pictureFile1 = @"C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\screen_shot_bin\screen_" + counter.ToString()+".PNG";
             //save the picture as a bitmap so the file can look through it
             Bitmap b = new Bitmap(pictureFile1);
 
             //colours from paint
-            int red = 173;
-            int green = 171;
-            int blue = 170;
+            int red = 28;
+            int green = 162;
+            int blue = 97;
 
             //use the colours to save to a full colour we can check against 
             Color specifiedColor = Color.FromArgb(red, green, blue);
@@ -135,14 +138,14 @@ namespace Screen_Shot
         private void Button3move_MouseClick(object sender, MouseEventArgs e)
         {
             //got it (needs to have the file type at the end or its invalid(.PNG))
-            string pictureFile1 = @"C:\Users\Toshiba\Desktop\coding\Screen_Shot\screen_shot_bin\screen_" + counter.ToString() + ".PNG";
+            string pictureFile1 = @"C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\screen_shot_bin\screen_" + counter.ToString() + ".PNG";
             //save the picture as a bitmap so the file can look through it
             Bitmap b = new Bitmap(pictureFile1);
 
             //colours from paint
-            int red =173;
-            int green = 171;
-            int blue = 170;
+            int red =27;
+            int green = 160;
+            int blue = 96;
 
             //use the colours to save to a full colour we can check against 
             Color specifiedColor = Color.FromArgb(red, green, blue);

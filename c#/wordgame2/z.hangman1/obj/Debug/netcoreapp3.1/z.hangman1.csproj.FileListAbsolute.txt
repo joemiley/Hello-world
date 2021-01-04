@@ -1,0 +1,65 @@
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.exe
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.deps.json
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.json
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfo.cs
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.genruntimeconfig.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.exe
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.deps.json
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.json
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfo.cs
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.genruntimeconfig.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.exe
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.deps.json
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.json
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfo.cs
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1 - Copy - Copy\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.genruntimeconfig.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.exe
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.deps.json
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.json
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfo.cs
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\AI\z.hangman1 master\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.genruntimeconfig.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.deps.json
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.json
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\bin\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.AssemblyInfo.cs
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.dll
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\wordgame2\z.hangman1\obj\Debug\netcoreapp3.1\z.hangman1.genruntimeconfig.cache

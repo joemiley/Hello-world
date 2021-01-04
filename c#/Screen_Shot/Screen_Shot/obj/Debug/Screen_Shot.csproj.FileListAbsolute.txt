@@ -15,3 +15,6 @@ C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\S
 C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.csproj.CoreCompileInputs.cache
 C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.exe
 C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\obj\Debug\Screen_Shot.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\bin\Debug\Screen_Shot.exe.config
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\bin\Debug\Screen_Shot.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\Screen_Shot\Screen_Shot\bin\Debug\Screen_Shot.pdb
