@@ -1,0 +1,10 @@
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\keyPresser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

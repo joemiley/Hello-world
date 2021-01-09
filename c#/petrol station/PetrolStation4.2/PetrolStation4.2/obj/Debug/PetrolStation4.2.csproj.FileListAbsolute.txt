@@ -5,3 +5,10 @@ C:\Users\Toshiba\Desktop\coding\PetrolStation4.2\PetrolStation4.2\bin\Debug\Petr
 C:\Users\Toshiba\Desktop\coding\PetrolStation4.2\PetrolStation4.2\bin\Debug\PetrolStation4.2.pdb
 C:\Users\Toshiba\Desktop\coding\PetrolStation4.2\PetrolStation4.2\obj\Debug\PetrolStation4.2.exe
 C:\Users\Toshiba\Desktop\coding\PetrolStation4.2\PetrolStation4.2\obj\Debug\PetrolStation4.2.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\bin\Debug\PetrolStation4.2.exe.config
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\bin\Debug\PetrolStation4.2.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\bin\Debug\PetrolStation4.2.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\obj\Debug\PetrolStation4.2.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\obj\Debug\PetrolStation4.2.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\obj\Debug\PetrolStation4.2.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\petrol station\PetrolStation4.2\PetrolStation4.2\obj\Debug\PetrolStation4.2.pdb
