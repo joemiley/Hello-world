@@ -4,6 +4,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D, MaxPooling2D
 import pickle
 import matplotlib.pyplot as plt
+import random
 
 
 # load in the data we have pre processed to the right sizes
@@ -14,7 +15,8 @@ y = pickle.load(open("labels(y).pickle", "rb"))
 X = np.array(X / 255.0)
 y = np.array(y)
 
-amount_Of_Times_To_Run = input("how many different machines would you like? ")
+amount_Of_Times_To_Run = 1
+# amount_Of_Times_To_Run = input("how many different machines would you like? ")
 
 for i in range(0, int(amount_Of_Times_To_Run)):
     # move through the model left to right please then go back round
@@ -44,7 +46,7 @@ for i in range(0, int(amount_Of_Times_To_Run)):
     # well above acceptable limits (two options didn't add up to 1 meaning something was very off)
     # dense 2 just means that at the end they can fall into two classifications (normal or pneumonia)
     model.add(Dense(2))
-    model.add(Activation("sigmoid"))
+    model.add(Activation("softmax"))
 
     # what the model is going to give us
     # sparse_categorical_crossentropy instead of binar-crossentropy due to there being more than one value
@@ -55,7 +57,7 @@ for i in range(0, int(amount_Of_Times_To_Run)):
     # batch_size = how many you want to pass through the NN at once (we're going with 32 for now)
     # epochs = how many times the data goes through (evolutions)
     # validation split is using 10% of the data to check for results per evolution
-    model.fit(X, y, batch_size=64, epochs=1, validation_split=0.1)
+    model.fit(X, y, batch_size=32, epochs=1, validation_split=0.25)
 
     # this is where the predictions happen (i could feed new data here)
     predictions = model.predict(X)
@@ -66,9 +68,9 @@ for i in range(0, int(amount_Of_Times_To_Run)):
     for j in range(0, len(X)):
         if y[j] != np.argmax(predictions[j]):
             counter += 1
-#            print(f"image{j}: actual label = {y[j]}     |"
-#                  f"guess = {np.argmax(predictions[j])}     |"
-#                  f"percentages = {predictions[j]}")
+            print(f"image{j}: actual label = {y[j]}     |"
+                  f"guess = {np.argmax(predictions[j])}     |"
+                  f"percentages = {predictions[j]}")
 
 
     # working out the percentage that are incorrect and printing
@@ -77,7 +79,22 @@ for i in range(0, int(amount_Of_Times_To_Run)):
           f"wrong counter: {counter} / {len(X)}    ||"
           f" this means that {wrong_percent:.4f}% are incorrect")
 
+    random_pick = random.randint(0, len(X))
 
+    print(predictions[random_pick])
+    prediction = np.argmax(predictions[random_pick])
+    actual_label = y[random_pick]
+
+    # grabs the highest prediction classification and shows it to us
+    # basically what the computer thinks it is
+    print(f'image{random_pick} prediction = {prediction} actual label = {actual_label}')
+
+    # show which picture we are looking at for predictions
+    plt.figure()
+    plt.imshow(X[random_pick])
+    plt.colorbar()
+    plt.grid(False)
+    plt.show()
 
 
 

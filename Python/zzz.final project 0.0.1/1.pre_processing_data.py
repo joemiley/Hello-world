@@ -9,17 +9,18 @@ import time
 Timer_start = time.time()
 # loading in the data
 DATADIR = r"C:\Users\Rando\Desktop\final project\dataset_ML(using)"
+
 # loading in the two categories (dogs = position 0, cats = position 1 in the list)
 CATEGORIES = ["NORMAL", "PNEUMONIA"]
 
 # normalising the data to a set size
 # sizing using for the M and N
-img_size = 50
+img_size = 150
 
 # creating an empty list for the training data
 training_data = []
 
-# empty lists ready to be filled with [feature(image) = x   label(dog,cat) = y]
+# empty lists ready to be filled with [feature(image) = x   label(normal, pneumonia) = y]
 images = []
 label = []
 
