@@ -5,24 +5,20 @@ from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D,
 from tensorflow.keras.callbacks import TensorBoard
 import pickle
 import time
-import matplotlib.pyplot as plt
-import random
 
 NAME = "Pneumonia-vs-normal-cnn-2x64relu-{}".format(int(time.time()))
 
-tensorboard = TensorBoard(log_dir='logs/{}'.format(NAME))
+tensorboard = TensorBoard(log_dir='logs2/{}'.format(NAME))
 
 # load in the data we have pre processed to the right sizes
-X = pickle.load(open("images(X).pickle", "rb"))
-y = pickle.load(open("labels(y).pickle", "rb"))
+pickle_in = open("X.pickle", "rb")
+X = pickle.load(pickle_in)
+pickle_in = open("y.pickle", "rb")
+y = pickle.load(pickle_in)
 
 # making the data to numpy arrays for tensor flow to use
 X = np.array(X / 255.0)
 y = np.array(y)
-
-amount_Of_Times_To_Run = 1
-# amount_Of_Times_To_Run = input("how many different machines would you like? ")
-
 
 # move through the model left to right please then go back round
 model = Sequential()
@@ -50,12 +46,12 @@ model.add(Dense(64))
 # have to use sigmoid instead of soft-max due to the max's being
 # well above acceptable limits (two options didn't add up to 1 meaning something was very off)
 # dense 2 just means that at the end they can fall into two classifications (normal or pneumonia)
-model.add(Dense(2))
-model.add(Activation("softmax"))
+model.add(Dense(1))
+model.add(Activation('softmax'))
 
 # what the model is going to give us
 # sparse_categorical_crossentropy instead of binar-crossentropy due to there being more than one value
-model.compile(loss="sparse_categorical_crossentropy",
+model.compile(loss="binary_crossentropy",
               optimizer="adam",
               metrics=["accuracy"])
 
@@ -64,45 +60,6 @@ model.compile(loss="sparse_categorical_crossentropy",
 # validation split is using 10% of the data to check for results per evolution
 model.fit(X, y, batch_size=32, epochs=10, validation_split=0.25, callbacks=[tensorboard])
 
-# this is where the predictions happen (i could feed new data here)
-predictions = model.predict(X)
-
-# counter for the guesses it gets wrong
-counter = 0
-# looking through all of them and seeing which once we got wrong and adding one to the counter
-for j in range(0, len(X)):
-    if y[j] != np.argmax(predictions[j]):
-        counter += 1
-        print(f"image{j}: actual label = {y[j]}     |"
-              f"guess = {np.argmax(predictions[j])}     |"
-              f"percentages = {predictions[j]}")
-
-
-# working out the percentage that are incorrect and printing
-wrong_percent = (100 / len(X)) * counter
-print(f"wrong counter: {counter} / {len(X)}    ||"
-      f" this means that {wrong_percent:.4f}% are incorrect")
-
-# random_pick = random.randint(0, len(X))
-#
-# print(predictions[random_pick])
-# prediction = np.argmax(predictions[random_pick])
-# actual_label = y[random_pick]
-#
-# # grabs the highest prediction classification and shows it to us
-# # basically what the computer thinks it is
-# print(f'image{random_pick} prediction = {prediction} actual label = {actual_label}')
-#
-# # show which picture we are looking at for predictions
-# plt.figure()
-# plt.imshow(X[random_pick])
-# plt.colorbar()
-# plt.grid(False)
-# plt.show()
-
 # how to use tensorboard in cmd:
 # cd zzz.final project 0.0.1
-# tensorboard --logdir=logs
-
-
-
+# tensorboard --logdir=logs2

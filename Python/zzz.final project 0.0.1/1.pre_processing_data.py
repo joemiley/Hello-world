@@ -8,7 +8,7 @@ import time
 
 Timer_start = time.time()
 # loading in the data
-DATADIR = r"C:\Users\Rando\Desktop\final project\dataset_ML(using)"
+DATADIR = r"C:\Users\Rando\Desktop\final project\dataset_ML(using)\images"
 
 # loading in the two categories (dogs = position 0, cats = position 1 in the list)
 CATEGORIES = ["NORMAL", "PNEUMONIA"]
