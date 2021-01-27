@@ -6,9 +6,9 @@ from tensorflow.keras.callbacks import TensorBoard
 import pickle
 import time
 
-NAME = "Pneumonia-vs-normal-cnn-2x64relu-{}".format(int(time.time()))
+NAME = "M2-Pneumonia-vs-normal-cnn-2x64relu-{}".format(int(time.time()))
 
-tensorboard = TensorBoard(log_dir='logs2/{}'.format(NAME))
+tensorboard = TensorBoard(log_dir='logs2/{}'.format(NAME), profile_batch=0)
 
 # load in the data we have pre processed to the right sizes
 pickle_in = open("X.pickle", "rb")
@@ -58,7 +58,7 @@ model.compile(loss="binary_crossentropy",
 # batch_size = how many you want to pass through the NN at once (we're going with 32 for now)
 # epochs = how many times the data goes through (evolutions)
 # validation split is using 10% of the data to check for results per evolution
-model.fit(X, y, batch_size=32, epochs=10, validation_split=0.25, callbacks=[tensorboard])
+model.fit(X, y, batch_size=32, epochs=5, validation_split=0.25, callbacks=[tensorboard])
 
 # how to use tensorboard in cmd:
 # cd zzz.final project 0.0.1
