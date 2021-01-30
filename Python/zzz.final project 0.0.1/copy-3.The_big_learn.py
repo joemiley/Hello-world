@@ -6,10 +6,10 @@ import numpy as np
 import pickle
 import time
 
-pickle_in = open("images(X).pickle", "rb")
+pickle_in = open("X.pickle", "rb")
 X = pickle.load(pickle_in)
 
-pickle_in = open("labels(y).pickle", "rb")
+pickle_in = open("y.pickle", "rb")
 y = pickle.load(pickle_in)
 
 X = np.array(X / 255.0)
@@ -22,7 +22,7 @@ conv_layers = [1, 2, 3]
 for dense_layer in dense_layers:
     for nodes in node_sizes:
         for conv_layer in conv_layers:
-            NAME = "M3-nodes{}-conLayer{}-denLayer{}-time{}".format(nodes, conv_layer, dense_layer, int(time.time()))
+            NAME = "binary-nodes{}-conLayer{}-denLayer{}-time{}".format(nodes, conv_layer, dense_layer, int(time.time()))
             print(NAME)
 
             model = Sequential()
@@ -42,12 +42,12 @@ for dense_layer in dense_layers:
                 model.add(Dense(nodes))
                 model.add(Activation('relu'))
 
-            model.add(Dense(2))
+            model.add(Dense(1))
             model.add(Activation('softmax'))
 
-            tensorboard = TensorBoard(log_dir="logs3/{}".format(NAME))
+            tensorboard = TensorBoard(log_dir="logs2/{}".format(NAME))
 
-            model.compile(loss='sparse_categorical_crossentropy',
+            model.compile(loss='binary_crossentropy',
                           optimizer='adam',
                           metrics=['accuracy'],
                           )
