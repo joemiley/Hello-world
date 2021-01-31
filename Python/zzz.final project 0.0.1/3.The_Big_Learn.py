@@ -15,9 +15,9 @@ y = pickle.load(pickle_in)
 X = np.array(X / 255.0)
 y = np.array(y)
 
-dense_layers = [0, 1, 2]
-node_sizes = [32, 64, 128]
-conv_layers = [1, 2, 3]
+dense_layers = [0]
+node_sizes = [128]
+conv_layers = [1]
 
 for dense_layer in dense_layers:
     for nodes in node_sizes:
@@ -57,6 +57,8 @@ for dense_layer in dense_layers:
                       epochs=10,
                       validation_split=0.3,
                       callbacks=[tensorboard])
+
+model.save("Usable-128x1conv.model")
 
 # how to use tensorboard in cmd:
 # cd zzz.final project 0.0.1

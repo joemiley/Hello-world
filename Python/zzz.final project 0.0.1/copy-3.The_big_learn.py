@@ -15,14 +15,14 @@ y = pickle.load(pickle_in)
 X = np.array(X / 255.0)
 y = np.array(y)
 
-dense_layers = [0, 1, 2]
-node_sizes = [32, 64, 128]
-conv_layers = [1, 2, 3]
+dense_layers = [0] # [0, 1, 2]
+node_sizes = [128] # [32, 64, 128]
+conv_layers = [1] # [1, 2, 3]
 
 for dense_layer in dense_layers:
     for nodes in node_sizes:
         for conv_layer in conv_layers:
-            NAME = "binary-nodes{}-conLayer{}-denLayer{}-time{}".format(nodes, conv_layer, dense_layer, int(time.time()))
+            NAME = "binary-act(sigmoid)-nodes{}-conLayer{}-denLayer{}-time{}".format(nodes, conv_layer, dense_layer, int(time.time()))
             print(NAME)
 
             model = Sequential()
@@ -43,7 +43,7 @@ for dense_layer in dense_layers:
                 model.add(Activation('relu'))
 
             model.add(Dense(1))
-            model.add(Activation('softmax'))
+            model.add(Activation('sigmoid'))
 
             tensorboard = TensorBoard(log_dir="logs2/{}".format(NAME))
 
@@ -58,6 +58,9 @@ for dense_layer in dense_layers:
                       validation_split=0.3,
                       callbacks=[tensorboard])
 
+# model.save(NAME+".model")
+
+
 # how to use tensorboard in cmd:
 # cd zzz.final project 0.0.1
-# tensorboard --logdir=logs3
+# tensorboard --logdir=logs2
