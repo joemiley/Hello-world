@@ -51,6 +51,7 @@ for dense_layer in dense_layers:
                           optimizer='adam',
                           metrics=['accuracy'],
                           )
+            # print(model.summary())
 
             model.fit(X, y,
                       batch_size=32,

@@ -23,7 +23,7 @@ def prepare(filepath):
 model = tf.keras.models.load_model("Usable-128x1conv.model")
 
 # getting it to load in our unseen image in the correct format (you have to pass in a list to predict)
-prediction = model.predict([prepare(unseen_data2)])
+prediction = model.predict([prepare(unseen_data3)])
 
 # it has to take in the two catigories
 print(prediction)
