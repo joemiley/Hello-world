@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+    <h1>upload image page</h1>
+
+    <div class = "container">
+        <div class = "row">
+            <div class = "col">
+                <hr>
+
+                <form action="/upload-image" method="POST" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label>Select image</label>
+                        <div class = "custom-file">
+                            <input type = "file" class="custom-file-input" name="image" id="image">
+                            <label class="custom-file-label" for="image">please select an image and click the upload button</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">upload Image</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock content %}
