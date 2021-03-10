@@ -1,0 +1,9 @@
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\bin\Debug\Flicker.exe.config
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\bin\Debug\Flicker.exe
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\bin\Debug\Flicker.pdb
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\obj\Debug\Flicker.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\obj\Debug\Flicker.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\obj\Debug\Flicker.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\obj\Debug\Flicker.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\obj\Debug\Flicker.exe
+C:\Users\Rando\Desktop\computer grapics\Flicker\Flicker\obj\Debug\Flicker.pdb

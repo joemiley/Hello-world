@@ -1,0 +1,9 @@
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\bin\Debug\Transforms.exe.config
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\bin\Debug\Transforms.exe
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\bin\Debug\Transforms.pdb
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\obj\Debug\Transforms.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\obj\Debug\Transforms.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\obj\Debug\Transforms.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\obj\Debug\Transforms.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\obj\Debug\Transforms.exe
+C:\Users\Rando\Desktop\computer grapics\Transforms\Transforms\obj\Debug\Transforms.pdb

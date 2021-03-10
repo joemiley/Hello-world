@@ -1,0 +1,9 @@
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\bin\Debug\XORDrawing.exe.config
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\bin\Debug\XORDrawing.exe
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\bin\Debug\XORDrawing.pdb
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\obj\Debug\XORDrawing.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\obj\Debug\XORDrawing.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\obj\Debug\XORDrawing.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\obj\Debug\XORDrawing.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\obj\Debug\XORDrawing.exe
+C:\Users\Rando\Desktop\computer grapics\XORDrawing\XORDrawing\obj\Debug\XORDrawing.pdb

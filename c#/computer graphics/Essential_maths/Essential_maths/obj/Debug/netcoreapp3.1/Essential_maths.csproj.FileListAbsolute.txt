@@ -1,0 +1,13 @@
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\bin\Debug\netcoreapp3.1\Essential_maths.exe
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\bin\Debug\netcoreapp3.1\Essential_maths.deps.json
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\bin\Debug\netcoreapp3.1\Essential_maths.runtimeconfig.json
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\bin\Debug\netcoreapp3.1\Essential_maths.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\bin\Debug\netcoreapp3.1\Essential_maths.dll
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\bin\Debug\netcoreapp3.1\Essential_maths.pdb
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.AssemblyInfo.cs
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.dll
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.pdb
+C:\Users\Rando\Desktop\computer grapics\Essential_maths\Essential_maths\obj\Debug\netcoreapp3.1\Essential_maths.genruntimeconfig.cache

@@ -1,0 +1,18 @@
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\bin\Debug\SimpleDrawing.exe.config
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\bin\Debug\SimpleDrawing.exe
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\bin\Debug\SimpleDrawing.pdb
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.csprojAssemblyReference.cache
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.Properties.Resources.resources
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.csproj.GenerateResource.cache
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.csproj.CoreCompileInputs.cache
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.exe
+C:\Users\Rando\source\repos\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.pdb
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\bin\Debug\SimpleDrawing.exe.config
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\bin\Debug\SimpleDrawing.exe
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\bin\Debug\SimpleDrawing.pdb
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.exe
+C:\Users\Rando\Desktop\computer grapics\SimpleDrawing\SimpleDrawing\obj\Debug\SimpleDrawing.pdb

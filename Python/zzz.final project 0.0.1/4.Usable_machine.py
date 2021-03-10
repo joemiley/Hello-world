@@ -29,3 +29,4 @@ prediction = model.predict([prepare(unseen_data3)])
 print(prediction)
 print(CATEGORIES[int(prediction[0][0])])
 
+

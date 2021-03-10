@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transforms", "Transforms\Transforms.csproj", "{F0B21EE8-F887-4370-83B1-E9F5EF5BD164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B21EE8-F887-4370-83B1-E9F5EF5BD164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B21EE8-F887-4370-83B1-E9F5EF5BD164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B21EE8-F887-4370-83B1-E9F5EF5BD164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B21EE8-F887-4370-83B1-E9F5EF5BD164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9B52E67-7F6A-4C00-9F9D-CEC43194C0BA}
+	EndGlobalSection
+EndGlobal

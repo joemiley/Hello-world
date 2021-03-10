@@ -13,7 +13,6 @@ namespace PetrolStation4._2
 
         public HGV(double FT, string NP, double C, double FD, string FTP) : base(FT, NP, C, FD)
         {
-            fuelType = FTP;
         }
     }
 }

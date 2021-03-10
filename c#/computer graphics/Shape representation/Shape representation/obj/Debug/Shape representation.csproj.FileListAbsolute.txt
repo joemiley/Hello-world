@@ -1,0 +1,18 @@
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\bin\Debug\Shape representation.exe.config
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\bin\Debug\Shape representation.exe
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\bin\Debug\Shape representation.pdb
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\obj\Debug\Shape representation.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\obj\Debug\Shape_representation.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\obj\Debug\Shape representation.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\obj\Debug\Shape representation.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\obj\Debug\Shape representation.exe
+C:\Users\Rando\Desktop\computer grapics\Shape representation\Shape representation\obj\Debug\Shape representation.pdb
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\bin\Debug\Shape representation.exe.config
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\bin\Debug\Shape representation.exe
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\bin\Debug\Shape representation.pdb
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\obj\Debug\Shape representation.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\obj\Debug\Shape_representation.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\obj\Debug\Shape representation.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\obj\Debug\Shape representation.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\obj\Debug\Shape representation.exe
+C:\Users\Rando\Desktop\computer graphics\Shape representation\Shape representation\obj\Debug\Shape representation.pdb

@@ -1,0 +1,9 @@
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\bin\Debug\workbench.exe.config
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\bin\Debug\workbench.exe
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\bin\Debug\workbench.pdb
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\obj\Debug\workbench.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\obj\Debug\workbench.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\obj\Debug\workbench.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\obj\Debug\workbench.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\obj\Debug\workbench.exe
+C:\Users\Rando\Desktop\computer grapics\workbench\workbench\obj\Debug\workbench.pdb

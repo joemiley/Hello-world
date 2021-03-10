@@ -1,0 +1,9 @@
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\bin\Debug\ComputingGraphicsFinalProject.exe.config
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\bin\Debug\ComputingGraphicsFinalProject.exe
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\bin\Debug\ComputingGraphicsFinalProject.pdb
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\obj\Debug\ComputingGraphicsFinalProject.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\obj\Debug\ComputingGraphicsFinalProject.Properties.Resources.resources
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\obj\Debug\ComputingGraphicsFinalProject.csproj.GenerateResource.cache
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\obj\Debug\ComputingGraphicsFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\obj\Debug\ComputingGraphicsFinalProject.exe
+C:\Users\Rando\Desktop\computer graphics\ComputingGraphicsFinalProject\ComputingGraphicsFinalProject\obj\Debug\ComputingGraphicsFinalProject.pdb
