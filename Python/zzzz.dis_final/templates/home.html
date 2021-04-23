@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Home Page:</h1>
+
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h2> An Efficient Web Interface for Detection of Pneumonia in Chest
+                  Xray Images Using Convolutional Neural Networks</h2>
+            </div>
+            <p class="article-content"></p>
+              <h3>Executive summary: <br></h3>
+              <label>This study uses CNN to speed up the rate in which a diagnostic of Pneumonia can be made for a
+                  patient. Using a mixture of CNN and image classification on X-rays of chest cavities an
+                  average of a 99.2% success rate has been achieved using five thousand open source images with a
+                  simple laptop and Python. A user friendly web app UI has also been created on local machine that
+                  could be scaled and posted to a web address. This However, is just a proof of concept and should not
+                  be used professionally in its current state.
+              </label>
+              <h3><br>Methodology:<br></h3>
+              <label>
+                  To do this Python, open source databases, image standardisation, TensorFlow and TensorBoard have been
+                  used with 30+ different iterations of the machine. These were tested with variations of node amounts
+                  per layer, convolutional layer amounts and dense layer amounts. Once optimised the machine was then
+                  retested with a multitude tests on both previously seen and unseen datasets.
+              </label>
+              <h3><br>Contribution:<br></h3>
+              <label>
+                  To increase the use-cases that CNN and ML can be used, reduce the time in important sectors, to
+                  Increase the average success rates in diagnosis for patients and a marriage of ease of use that
+                  can be scaled to promote further investigation and exposure to ML and CNN.
+              </label>
+            </div>
+        </article>
+{% endblock content %}

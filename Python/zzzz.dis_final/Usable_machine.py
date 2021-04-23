@@ -1,9 +1,10 @@
 import cv2
-import tensorflow as tf
 import os
+import tensorflow as tf
 import flaskpractice as FP
 from os import listdir
 from os.path import isfile, join
+
 
 def machine_run():
     CATEGORIES = ["PNEUMONIA", "NORMAL"]
@@ -14,9 +15,7 @@ def machine_run():
     files_uploaded_list = [f for f in listdir(FP.suc_upload_img_folder)
                            if isfile(join(FP.suc_upload_img_folder, f))]
 
-
     unseen_data0 = FP.suc_upload_img_folder + "\\" + files_uploaded_list[0]
-
 
     def prepare(filepath):
         IMG_SIZE = 150  # size we are reshaping the image to
@@ -24,7 +23,6 @@ def machine_run():
         new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))  # resizing the image
         return new_array.reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # give the image in the new format
                                                              # that matches the preproccessed data
-
 
     # loading in the model we tested and optimised for
     model = tf.keras.models.load_model("Usable-128x1conv.model")

@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>About:</h1>
+          <article class="media content-section">
+          <div class="media-body">
+            <label>
+                this CNN based web application is trained for X-rays of chest cavities to recognise Pneumonia as a
+                proof of concept tool for medical professionals. it is built using python3 with the following
+                packages:<br><br>
+
+                    -Flask<br>
+                    -Tensorflow<br>
+                    -OS<br>
+                    -werkzeug<br>
+                    -cv2<br>
+                    -Pickle<br>
+                    -numpy<br>
+                    -time <br><br>
+
+                when the user uploads an image via the upload page and clicks the upload image button then they are shown
+                the image with a button with "start machine" on. once this button is clicked then a saved state of a model
+                that consists of resizing to 150x150 pixels, pickling the data, unpickling it into a numpy array, running
+                it through a convolutional neural network of 120 node convolutional layer with a 3x3 window and relu and step,
+                a flattern layer and a dense layer of 2 nodes which uses softmax. this has a 99.25% average in getting the
+                classification correct through tests done.
+
+
+
+            </label>
+          </div>
+          </article>
+    {% for patch in patches %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ patch.author }}</a>
+              <small class="text-muted">{{ patch.date_posted }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ patch.title }}</a></h2>
+            <p class="article-content">{{ patch.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

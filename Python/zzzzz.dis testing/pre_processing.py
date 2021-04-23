@@ -15,7 +15,7 @@ CATEGORIES = ["NORMAL", "PNEUMONIA"]
 
 # normalising the data to a set size
 # sizing using for the M and N
-img_size = 50
+img_size = 150
 
 # creating an empty list for the training data
 training_data = []
