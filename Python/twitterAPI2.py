@@ -4,7 +4,8 @@ from tweepy import Cursor
 from tweepy import OAuthHandler
 from tweepy import Stream
 # the .py we made
-import twitter_credentials
+import t
+
 
 class TwitterClient():
     # None defaults to your own timeline however if something is put in there then it will gab theirs
@@ -41,9 +42,9 @@ class TwitterAuthenticator():
 
     def authenticate_twitter_app(self):
         # holds the consumer keys
-        auth = OAuthHandler(twitter_credentials.CONSUMER_KEY, twitter_credentials.CONSUMER_SECRET)
+        auth = OAuthHandler(t.CONSUMER_KEY, t.CONSUMER_SECRET)
         # holds the access tokens
-        auth.set_access_token(twitter_credentials.ACCESS_TOKEN, twitter_credentials.ACCESS_TOKEN_SECRET)
+        auth.set_access_token(t.ACCESS_TOKEN, t.ACCESS_TOKEN_SECRET)
         return auth
 
 class TwitterStreamer():

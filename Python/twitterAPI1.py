@@ -3,7 +3,7 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 
-import twitter_credentials
+import t
 
 
 # # # # TWITTER STREAMER # # # #
@@ -18,8 +18,8 @@ class TwitterStreamer():
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
         # This handles Twitter authetification and the connection to Twitter Streaming API
         listener = StdOutListener(fetched_tweets_filename)
-        auth = OAuthHandler(twitter_credentials.CONSUMER_KEY, twitter_credentials.CONSUMER_SECRET)
-        auth.set_access_token(twitter_credentials.ACCESS_TOKEN, twitter_credentials.ACCESS_TOKEN_SECRET)
+        auth = OAuthHandler(t.CONSUMER_KEY, t.CONSUMER_SECRET)
+        auth.set_access_token(t.ACCESS_TOKEN, t.ACCESS_TOKEN_SECRET)
         stream = Stream(auth, listener)
 
         # This line filter Twitter Streams to capture data by the keywords:
