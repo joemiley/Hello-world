@@ -1,0 +1,13 @@
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\bin\Debug\netcoreapp3.1\codingtestpractice.exe
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\bin\Debug\netcoreapp3.1\codingtestpractice.deps.json
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\bin\Debug\netcoreapp3.1\codingtestpractice.runtimeconfig.json
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\bin\Debug\netcoreapp3.1\codingtestpractice.runtimeconfig.dev.json
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\bin\Debug\netcoreapp3.1\codingtestpractice.dll
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\bin\Debug\netcoreapp3.1\codingtestpractice.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.csprojAssemblyReference.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.AssemblyInfoInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.AssemblyInfo.cs
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.csproj.CoreCompileInputs.cache
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.dll
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.pdb
+C:\Users\Rando\Desktop\coding\Hello-world\c#\codingtestpractice\codingtestpractice\obj\Debug\netcoreapp3.1\codingtestpractice.genruntimeconfig.cache

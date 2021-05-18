@@ -81,9 +81,8 @@ class TwitterListener(StreamListener):
                 tf.write(data)
                 return True
         except BaseException as e:
-            print("error on data: "+ str(e))
+            print("error on data: " + str(e))
             return True
-
 
     # happens if there is an error from the streamlistener
     def on_error(self, status):
@@ -103,7 +102,7 @@ if __name__ == "__main__":
     # creating a twitter client object and takes a twitter username or just defaults to yours if empty
     # the bit after the @ symbol
     # if any tweets are pinned then its the first one under that
-    twitter_client = TwitterClient("pycon")
+    twitter_client = TwitterClient(23424848)
 
     # this is where we specify how many tweets we want
     # you get none from this because you have no items on your timeline

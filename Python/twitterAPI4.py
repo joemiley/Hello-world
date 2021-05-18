@@ -5,6 +5,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import numpy as np
 import pandas as pd
+import json
 import matplotlib.pyplot as plt
 
 # the .py we made
@@ -118,12 +119,12 @@ class TweetAnalyser():
         # for looping through the tweets list
         # this is how we add new columns onto our table
         df['id'] = np.array([tweet.id for tweet in tweets])
+        df['text'] = np.array([tweet.text for tweet in tweets])
         df['len'] = np.array([len(tweet.text) for tweet in tweets])
         df['date'] = np.array([tweet.created_at for tweet in tweets])
         df['source'] = np.array([tweet.source for tweet in tweets])
         df['likes'] = np.array([tweet.favorite_count for tweet in tweets])
         df['retweet count'] = np.array([tweet.retweet_count for tweet in tweets])
-
         return df
 
 
@@ -136,18 +137,33 @@ if __name__ == "__main__":
     api = twitter_client.get_twitter_client_api()
 
     tweets = api.user_timeline(screen_name="boohoo", count=200)
+    trends = api.trends_place(23424975)
+    trends_string = json.dumps(trends)
+    data = json.loads(trends_string)
+
+
+    # gives me a string
+    print(trends_string)
+    # gives me a list
+    #print(data[0]['name'][0])
+
+    for i in range(0, 10):
+        print(trends[0]['trends'][i]['name'])
+
+
 
     # df means data frame
-    df = tweets_analyzer.tweets_to_data_frame(tweets)
+    #df = tweets_analyzer.tweets_to_data_frame(tweets)
+
 
     # get the average length overall from the tweets
-    print(np.mean(df['len']))
+    #print(np.mean(df['len']))
 
     # get number of likes for the most liked tweet
-    print(np.max(df['likes']))
+    #print(np.max(df['likes']))
 
     # get the most retweets
-    print(np.max(df['retweet count']))
+    #print(np.max(df['retweet count']))
 
     # time series
     # time_likes = pd.Series(data=df['fav count'].values, index=df['date'])
@@ -158,11 +174,11 @@ if __name__ == "__main__":
     # time_retweets.plot(figsize=(16, 4), color='red')
     # plt.show()
 
-    time_retweets = pd.Series(data=df['retweet count'].values, index=df['date'])
-    time_retweets.plot(figsize=(16, 4), color='red', label="retweets", legend=True)
-    time_fav_count = pd.Series(data=df['likes'].values, index=df['date'])
-    time_fav_count.plot(figsize=(16, 4), color='blue', label="likes", legend=True)
-    plt.show()
+    #time_retweets = pd.Series(data=df['retweet count'].values, index=df['date'])
+    #time_retweets.plot(figsize=(16, 4), color='red', label="retweets", legend=True)
+    #time_fav_count = pd.Series(data=df['likes'].values, index=df['date'])
+    #time_fav_count.plot(figsize=(16, 4), color='blue', label="likes", legend=True)
+    #plt.show()
 
 
     # this command gives a list of attributes each tweet captured has that we can call in TweetAnalyser()
