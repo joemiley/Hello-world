@@ -7,6 +7,10 @@ import numpy as np
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
+import stylecloud
+import time
+import sys
+import keyboard
 
 # the .py we made
 import t
@@ -23,7 +27,7 @@ class TwitterClient():
     def get_twitter_client_api(self):
         return self.twitter_client
 
-    #limits the number of tweets to show and interact with
+    # limits the number of tweets to show and interact with
     def get_user_timeline_tweets(self, num_tweets):
         tweets = []
         # items tells the thing how many items from your timeline you want
@@ -45,12 +49,8 @@ class TwitterClient():
             return home_timeline_tweets
 
 
-
-
-
 # twitter authenticator
 class TwitterAuthenticator():
-
     def authenticate_twitter_app(self):
         # holds the consumer keys
         auth = OAuthHandler(t.CONSUMER_KEY, t.CONSUMER_SECRET)
@@ -58,11 +58,10 @@ class TwitterAuthenticator():
         auth.set_access_token(t.ACCESS_TOKEN, t.ACCESS_TOKEN_SECRET)
         return auth
 
-class TwitterStreamer():
 
+class TwitterStreamer():
     def __init__(self):
         self.twitter_authenticator = TwitterAuthenticator()
-
 
     # this is where we are going to write our tweets to and authenticates
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
@@ -76,9 +75,6 @@ class TwitterStreamer():
 
         # this is where we specify what we are looking for in list form
         stream.filter(track=hash_tag_list)
-
-
-
 
 
 # creating a class of streamlistener objects
@@ -109,7 +105,6 @@ class TwitterListener(StreamListener):
         print(status)
 
 
-
 class TweetAnalyser():
     # functionality for analyzing and catagorizing content from tweets
     def tweets_to_data_frame(self, tweets):
@@ -128,27 +123,81 @@ class TweetAnalyser():
         return df
 
 
-
 # runs the program
 if __name__ == "__main__":
-    twitter_client = TwitterClient()
-    tweets_analyzer = TweetAnalyser()
+    timer_counter = 0
 
-    api = twitter_client.get_twitter_client_api()
+    while True:
+        twitter_client = TwitterClient()
+        tweets_analyzer = TweetAnalyser()
 
-    tweets = api.user_timeline(screen_name="boohoo", count=200)
-    trends = api.trends_place(23424975)
-    trends_string = json.dumps(trends)
-    data = json.loads(trends_string)
+        api = twitter_client.get_twitter_client_api()
 
+        #tweets = api.user_timeline(screen_name="boohoo", count=200)
+        trends = api.trends_place(23424975)
+        trends_string = json.dumps(trends)
+        data = json.loads(trends_string)
 
-    # gives me a string
-    print(trends_string)
-    # gives me a list
-    #print(data[0]['name'][0])
+        trending_list = []
 
-    for i in range(0, 10):
-        print(trends[0]['trends'][i]['name'])
+        if timer_counter == 0 or timer_counter == 10:
+            f10 = open("text10.txt", "w+")
+            for i in range(0, 10):
+                #print(trends[0]['trends'][i]['name'])
+                trending_list.append(trends[0]['trends'][i]['name'])
+                f10.write(str(trending_list[i]) + "\r")
+
+            f10.close()
+
+            word_cloud = stylecloud.gen_stylecloud(file_path='text10.txt',
+                                                   icon_name='fas fa-cloud',
+                                                   output_name='text_cloud10.png',
+                                                   # palette='colorbrewer.diverging.Spectral_11',
+                                                   # background_color='#1A1A1A',
+                                                   gradient='horizontal')
+            print("text10.txt and text_cloud10.png was created")
+
+        if timer_counter == 0 or timer_counter == 30:
+            f30 = open("text30.txt", "w+")
+            for i in range(0, 30):
+                #print(trends[0]['trends'][i]['name'])
+                trending_list.append(trends[0]['trends'][i]['name'])
+                f30.write(str(trending_list[i]) + "\r")
+
+            f30.close()
+
+            word_cloud = stylecloud.gen_stylecloud(file_path='text30.txt',
+                                                   icon_name='fas fa-cloud',
+                                                   output_name='text_cloud30.png',
+                                                   # palette='colorbrewer.diverging.Spectral_11',
+                                                   # background_color='#1A1A1A',
+                                                   gradient='horizontal')
+            print("text30.txt and text_cloud30.png was created")
+
+        if timer_counter == 0 or timer_counter == 60:
+            f60 = open("text60.txt", "w+")
+            for i in range(0, 50):
+                #print(trends[0]['trends'][i]['name'])
+                trending_list.append(trends[0]['trends'][i]['name'])
+                f60.write(str(trending_list[i]) + "\r")
+
+            f60.close()
+
+            word_cloud = stylecloud.gen_stylecloud(file_path='text60.txt',
+                                                   icon_name='fas fa-cloud',
+                                                   output_name='text_cloud50.png',
+                                                   # palette='colorbrewer.diverging.Spectral_11',
+                                                   # background_color='#1A1A1A',
+                                                   gradient='horizontal')
+            print("text60.txt and text_cloud50.png was created")
+
+        print("timer in mins: " + str(timer_counter))
+        time.sleep(60)
+        timer_counter = timer_counter+1
+
+        if timer_counter > 60:
+            timer_counter = 1
+
 
 
 

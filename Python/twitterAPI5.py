@@ -2,7 +2,7 @@ import numpy as np
 import tweepy
 import requests
 import base64
-
+import stylecloud
 import t
 
 consumer_key = t.CONSUMER_KEY
@@ -41,5 +41,19 @@ trend_resp = requests.get(trend_url, headers=trend_headers, params=trend_params)
 
 tweet_data = trend_resp.json()
 
-for i in range(0,10):
-  print(tweet_data[0]['trends'][i])
+trending_list = []
+f = open("text2.txt", "w+")
+
+for i in range(0, 40):
+    print(tweet_data[0]['trends'][i]['name'])
+    trending_list.append(tweet_data[0]['trends'][i]['name'])
+    f.write(str(trending_list[i]) + "\r")
+f.close()
+
+word_cloud = stylecloud.gen_stylecloud(file_path='text2.txt',
+                                       icon_name='fas fa-cloud',
+                                       output_name='text_cloud2.png',
+                                       #palette='colorbrewer.diverging.Spectral_11',
+                                       gradient='horizontal',
+                                       #background_color='#1A1A1A'
+                                      )

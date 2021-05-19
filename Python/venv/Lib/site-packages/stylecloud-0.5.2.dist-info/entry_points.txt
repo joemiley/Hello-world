@@ -1,0 +1,3 @@
+[console_scripts]
+stylecloud = stylecloud.stylecloud:stylecloud_cli
+
