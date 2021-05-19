@@ -169,8 +169,9 @@ if __name__ == "__main__":
             word_cloud = stylecloud.gen_stylecloud(file_path='text30.txt',
                                                    icon_name='fas fa-cloud',
                                                    output_name='text_cloud30.png',
+                                                   colors=['#ecf0f1', '#3498db', '#e74c3c'],
                                                    # palette='colorbrewer.diverging.Spectral_11',
-                                                   # background_color='#1A1A1A',
+                                                   background_color='#1A1A1A',
                                                    gradient='horizontal')
             print("text30.txt and text_cloud30.png was created")
 
@@ -186,8 +187,8 @@ if __name__ == "__main__":
             word_cloud = stylecloud.gen_stylecloud(file_path='text60.txt',
                                                    icon_name='fas fa-cloud',
                                                    output_name='text_cloud50.png',
-                                                   # palette='colorbrewer.diverging.Spectral_11',
-                                                   # background_color='#1A1A1A',
+                                                   palette='colorbrewer.diverging.Spectral_11',
+                                                   background_color='darkblue',
                                                    gradient='horizontal')
             print("text60.txt and text_cloud50.png was created")
 
