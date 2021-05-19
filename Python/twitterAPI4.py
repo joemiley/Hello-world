@@ -199,8 +199,6 @@ if __name__ == "__main__":
             timer_counter = 1
 
 
-
-
     # df means data frame
     #df = tweets_analyzer.tweets_to_data_frame(tweets)
 
