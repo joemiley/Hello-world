@@ -9,9 +9,6 @@ import json
 import matplotlib.pyplot as plt
 import stylecloud
 import time
-import sys
-import keyboard
-
 # the .py we made
 import t
 
@@ -21,7 +18,6 @@ class TwitterClient():
     def __init__(self, twitter_user=None):
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
         self.twitter_client = API(self.auth)
-
         self.twitter_user = twitter_user
 
     def get_twitter_client_api(self):
@@ -67,12 +63,9 @@ class TwitterStreamer():
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
         # calls the listener to start to create objects
         listener = TwitterListener(fetched_tweets_filename)
-
         auth = self.twitter_authenticator.authenticate_twitter_app()
-
         # uses all the credentials
         stream = Stream(auth, listener)
-
         # this is where we specify what we are looking for in list form
         stream.filter(track=hash_tag_list)
 
@@ -109,7 +102,6 @@ class TweetAnalyser():
     # functionality for analyzing and catagorizing content from tweets
     def tweets_to_data_frame(self, tweets):
         df = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['Tweets'])
-
         # this creates a numpy array with the heading being each tweets tweet and id that its just
         # for looping through the tweets list
         # this is how we add new columns onto our table
@@ -125,19 +117,13 @@ class TweetAnalyser():
 
 # runs the program
 if __name__ == "__main__":
+    twitter_client = TwitterClient()
+    tweets_analyzer = TweetAnalyser()
+    api = twitter_client.get_twitter_client_api()
+
     timer_counter = 0
-
     while True:
-        twitter_client = TwitterClient()
-        tweets_analyzer = TweetAnalyser()
-
-        api = twitter_client.get_twitter_client_api()
-
-        #tweets = api.user_timeline(screen_name="boohoo", count=200)
         trends = api.trends_place(23424975)
-        trends_string = json.dumps(trends)
-        data = json.loads(trends_string)
-
         trending_list = []
 
         if timer_counter == 0 or timer_counter == 10:
@@ -146,9 +132,7 @@ if __name__ == "__main__":
                 #print(trends[0]['trends'][i]['name'])
                 trending_list.append(trends[0]['trends'][i]['name'])
                 f10.write(str(trending_list[i]) + "\r")
-
             f10.close()
-
             word_cloud = stylecloud.gen_stylecloud(file_path='text10.txt',
                                                    icon_name='fas fa-cloud',
                                                    output_name='text_cloud10.png',
@@ -165,7 +149,6 @@ if __name__ == "__main__":
                 f30.write(str(trending_list[i]) + "\r")
 
             f30.close()
-
             word_cloud = stylecloud.gen_stylecloud(file_path='text30.txt',
                                                    icon_name='fas fa-cloud',
                                                    output_name='text_cloud30.png',
@@ -181,9 +164,7 @@ if __name__ == "__main__":
                 #print(trends[0]['trends'][i]['name'])
                 trending_list.append(trends[0]['trends'][i]['name'])
                 f60.write(str(trending_list[i]) + "\r")
-
             f60.close()
-
             word_cloud = stylecloud.gen_stylecloud(file_path='text60.txt',
                                                    icon_name='fas fa-cloud',
                                                    output_name='text_cloud50.png',
@@ -192,7 +173,29 @@ if __name__ == "__main__":
                                                    gradient='horizontal')
             print("text60.txt and text_cloud50.png was created")
 
-        print("timer in mins: " + str(timer_counter))
+        if timer_counter == 0:
+            #print(trends[0]['trends'])
+            #print(trends[0]['trends'][1])
+            user_amount = input("please input the amount of trending topics you would like to see (max 50): ")
+
+            trending_tweets_with_numbers = []
+            for i in range(0, int(user_amount)):
+                trending_tweets_with_numbers.append(str(trends[0]['trends'][i]['name']) +
+                                                    " | " +
+                                                    str(trends[0]['trends'][i]['tweet_volume']))
+                #print(str(trends[0]['trends'][i]['name']) + " | " + str(trends[0]['trends'][i]['tweet_volume']))
+                print(trending_tweets_with_numbers[i])
+            tweets = api.user_timeline(screen_name="bbcBreaking", count=200)
+            # df means data frame
+            df = tweets_analyzer.tweets_to_data_frame(tweets)
+            time_retweets = pd.Series(data=df['retweet count'].values, index=df['date'])
+            time_retweets.plot(figsize=(10, 4), color='red', label="retweets", legend=True)
+            time_fav_count = pd.Series(data=df['likes'].values, index=df['date'])
+            time_fav_count.plot(figsize=(10, 4), color='blue', label="likes", legend=True)
+            plt.savefig("bbcBreakingFigure.png")
+            print("timer started to update wordclouds (10mins, 30mins and 60mins)")
+
+        print("timer elapsed: " + str(timer_counter))
         time.sleep(60)
         timer_counter = timer_counter+1
 
@@ -200,18 +203,16 @@ if __name__ == "__main__":
             timer_counter = 1
 
 
-    # df means data frame
-    #df = tweets_analyzer.tweets_to_data_frame(tweets)
-
+# ____________________ potential coding options __________________________________________________________________
 
     # get the average length overall from the tweets
-    #print(np.mean(df['len']))
+    # print(np.mean(df['len']))
 
     # get number of likes for the most liked tweet
-    #print(np.max(df['likes']))
+    # print(np.max(df['likes']))
 
     # get the most retweets
-    #print(np.max(df['retweet count']))
+    # print(np.max(df['retweet count']))
 
     # time series
     # time_likes = pd.Series(data=df['fav count'].values, index=df['date'])
@@ -221,13 +222,6 @@ if __name__ == "__main__":
     # time_retweets = pd.Series(data=df['retweet count'].values, index=df['date'])
     # time_retweets.plot(figsize=(16, 4), color='red')
     # plt.show()
-
-    #time_retweets = pd.Series(data=df['retweet count'].values, index=df['date'])
-    #time_retweets.plot(figsize=(16, 4), color='red', label="retweets", legend=True)
-    #time_fav_count = pd.Series(data=df['likes'].values, index=df['date'])
-    #time_fav_count.plot(figsize=(16, 4), color='blue', label="likes", legend=True)
-    #plt.show()
-
 
     # this command gives a list of attributes each tweet captured has that we can call in TweetAnalyser()
     # print(dir(tweets[0]))
