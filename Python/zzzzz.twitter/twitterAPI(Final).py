@@ -5,7 +5,6 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import numpy as np
 import pandas as pd
-import json
 import matplotlib.pyplot as plt
 import stylecloud
 import time
@@ -45,7 +44,7 @@ class TwitterClient():
             return home_timeline_tweets
 
 
-# twitter authenticator
+# zzzzz.twitter authenticator
 class TwitterAuthenticator():
     def authenticate_twitter_app(self):
         # holds the consumer keys
@@ -90,7 +89,7 @@ class TwitterListener(StreamListener):
 
     # happens if there is an error from the streamlistener
     def on_error(self, status):
-        # this is an error code twitter gives you if your pulling too much to fast
+        # this is an error code zzzzz.twitter gives you if your pulling too much to fast
         # they put you on timeout first time but eventually they will just block you
         # returning false kills it
         if status == 420:
@@ -125,6 +124,7 @@ if __name__ == "__main__":
     while True:
         trends = api.trends_place(23424975)
         trending_list = []
+        trending_numbers = []
 
         if timer_counter == 0 or timer_counter == 10:
             f10 = open("text10.txt", "w+")
@@ -144,7 +144,6 @@ if __name__ == "__main__":
         if timer_counter == 0 or timer_counter == 30:
             f30 = open("text30.txt", "w+")
             for i in range(0, 30):
-                #print(trends[0]['trends'][i]['name'])
                 trending_list.append(trends[0]['trends'][i]['name'])
                 f30.write(str(trending_list[i]) + "\r")
 
@@ -161,9 +160,10 @@ if __name__ == "__main__":
         if timer_counter == 0 or timer_counter == 60:
             f60 = open("text60.txt", "w+")
             for i in range(0, 50):
-                #print(trends[0]['trends'][i]['name'])
                 trending_list.append(trends[0]['trends'][i]['name'])
                 f60.write(str(trending_list[i]) + "\r")
+                if isinstance(trends[0]['trends'][i]['tweet_volume'], int) is True:
+                    trending_numbers.append(trends[0]['trends'][i]['tweet_volume'])
             f60.close()
             word_cloud = stylecloud.gen_stylecloud(file_path='text60.txt',
                                                    icon_name='fas fa-cloud',
@@ -174,26 +174,62 @@ if __name__ == "__main__":
             print("text60.txt and text_cloud50.png was created")
 
         if timer_counter == 0:
-            #print(trends[0]['trends'])
-            #print(trends[0]['trends'][1])
-            user_amount = input("please input the amount of trending topics you would like to see (max 50): ")
+            print(" ")
+            # its not a bug if its a feature
+            user_amount = \
+                int(input("please input the amount of trending topics you would like to see (max 50) \n"
+                          "if a number is not put in then the program will close. once stopped the program \n"
+                          "will create alltext files, text clouds and figures required. please enter your chosen number: "))
+            print()
+
+            if user_amount > 50:
+                user_amount = 50
+            if user_amount < 1:
+                user_amount = 1
 
             trending_tweets_with_numbers = []
-            for i in range(0, int(user_amount)):
-                trending_tweets_with_numbers.append(str(trends[0]['trends'][i]['name']) +
+            for i in range(0, user_amount):
+                trending_tweets_with_numbers.append(str(i+1) + ". "+str(trends[0]['trends'][i]['name']) +
                                                     " | " +
                                                     str(trends[0]['trends'][i]['tweet_volume']))
-                #print(str(trends[0]['trends'][i]['name']) + " | " + str(trends[0]['trends'][i]['tweet_volume']))
+                # some trends dont come with number from the api so they are set to None by default
                 print(trending_tweets_with_numbers[i])
+
+            fUser = open("textUser.txt", "w+")
+            for i in range(0, user_amount):
+                trending_list.append(trends[0]['trends'][i]['name'])
+                fUser.write(str(trending_list[i]) + "\r")
+            fUser.close()
+            word_cloud = stylecloud.gen_stylecloud(file_path='textUser.txt',
+                                                   icon_name='fas fa-cloud',
+                                                   output_name='text_cloudUser.png',
+                                                   colors=['blue', 'green', 'red', 'white', 'brown'],
+                                                   background_color='black',
+                                                   gradient='horizontal')
+            print("textUser.txt and text_cloudUser.png was created")
+
             tweets = api.user_timeline(screen_name="bbcBreaking", count=200)
             # df means data frame
             df = tweets_analyzer.tweets_to_data_frame(tweets)
             time_retweets = pd.Series(data=df['retweet count'].values, index=df['date'])
             time_retweets.plot(figsize=(10, 4), color='red', label="retweets", legend=True)
             time_fav_count = pd.Series(data=df['likes'].values, index=df['date'])
-            time_fav_count.plot(figsize=(10, 4), color='blue', label="likes", legend=True)
+            time_fav_count.plot(figsize=(10, 4), color='blue', label="likes", legend=True,
+                                title="BBC Breaking News zzzzz.twitter metrics")
             plt.savefig("bbcBreakingFigure.png")
-            print("timer started to update wordclouds (10mins, 30mins and 60mins)")
+
+            print(" ")
+
+            trending_numbers.sort()
+            print("you will need " + str(trending_numbers[:1]) + " unique tweets and mentions \n"
+                  "in a 24hr period to get on trending and [" + str(trending_numbers[-1]) + "] to be at the top")
+            print(" ")
+
+            print("timer started to update wordclouds(10mins, 30mins and 60mins)")
+
+
+
+
 
         print("timer elapsed: " + str(timer_counter))
         time.sleep(60)
@@ -204,6 +240,9 @@ if __name__ == "__main__":
 
 
 # ____________________ potential coding options __________________________________________________________________
+
+    # print(trends[0]['trends'])
+    # print(trends[0]['trends'][1])
 
     # get the average length overall from the tweets
     # print(np.mean(df['len']))

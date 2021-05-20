@@ -3,9 +3,6 @@ from tweepy import API
 from tweepy import Cursor
 from tweepy import OAuthHandler
 from tweepy import Stream
-import numpy as np
-import pandas as pd
-
 # the .py we made
 import t
 
@@ -17,9 +14,6 @@ class TwitterClient():
         self.twitter_client = API(self.auth)
 
         self.twitter_user = twitter_user
-
-    def get_twitter_client_api(self):
-        return self.twitter_client
 
     #limits the number of tweets to show and interact with
     def get_user_timeline_tweets(self, num_tweets):
@@ -43,10 +37,7 @@ class TwitterClient():
             return home_timeline_tweets
 
 
-
-
-
-# twitter authenticator
+# zzzzz.twitter authenticator
 class TwitterAuthenticator():
 
     def authenticate_twitter_app(self):
@@ -76,9 +67,6 @@ class TwitterStreamer():
         stream.filter(track=hash_tag_list)
 
 
-
-
-
 # creating a class of streamlistener objects
 class TwitterListener(StreamListener):
 
@@ -93,79 +81,36 @@ class TwitterListener(StreamListener):
                 tf.write(data)
                 return True
         except BaseException as e:
-            print("error on data: "+ str(e))
+            print("error on data: " + str(e))
             return True
-
 
     # happens if there is an error from the streamlistener
     def on_error(self, status):
-        # this is an error code twitter gives you if your pulling too much to fast
+        # this is an error code zzzzz.twitter gives you if your pulling too much to fast
         # they put you on timeout first time but eventually they will just block you
         # returning false kills it
         if status == 420:
             return False
         print(status)
 
-
-
-class TweetAnalyser():
-    # functionality for analyzing and catagorizing content from tweets
-    def tweets_to_data_frame(self, tweets):
-        df = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['Tweets'])
-
-        # this creates a numpy array with the heading being each tweets tweet and id that its just
-        # for looping through the tweets list
-        # this is how we add new columns onto our table
-        df['id'] = np.array([tweet.id for tweet in tweets])
-        df['len'] = np.array([len(tweet.text) for tweet in tweets])
-        df['date'] = np.array([tweet.created_at for tweet in tweets])
-        df['source'] = np.array([tweet.source for tweet in tweets])
-        df['fav count'] = np.array([tweet.favorite_count for tweet in tweets])
-        df['retweet count'] = np.array([tweet.retweet_count for tweet in tweets])
-
-        return df
-
-
-
 # runs the program
 if __name__ == "__main__":
-    twitter_client = TwitterClient()
-    tweets_analyzer = TweetAnalyser()
+    # variables
+    hash_tag_list = ["donald trump", "hilary clinton", "barack obama", "bernie sanders"]
+    fetched_tweets_filename = "tweets.json"
 
-    api = twitter_client.get_twitter_client_api()
+    # creating a zzzzz.twitter client object and takes a zzzzz.twitter username or just defaults to yours if empty
+    # the bit after the @ symbol
+    # if any tweets are pinned then its the first one under that
+    twitter_client = TwitterClient(23424848)
 
-    tweets = api.user_timeline(screen_name="coopercastille", count=20)
+    # this is where we specify how many tweets we want
+    # you get none from this because you have no items on your timeline
+    print(twitter_client.get_user_timeline_tweets(1))
 
-    # df means data frame
-    df = tweets_analyzer.tweets_to_data_frame(tweets)
-
-    print(df.head(10))
-
-    # this command gives a list of attributes each tweet captured has that we can call in TweetAnalyser()
-    # print(dir(tweets[0]))
-    # prints the head of every tweet and the attribute we ask of it
-    # print(df.head(10))
-    # print(tweets[0].id)
-    # print(tweets[0].retweet_count)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # methods and functions
+    #twitter_streamer = TwitterStreamer()
+    #twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
 
 
 
