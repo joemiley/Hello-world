@@ -3,13 +3,14 @@ from tweepy import API
 from tweepy import Cursor
 from tweepy import OAuthHandler
 from tweepy import Stream
+from PIL import Image
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import stylecloud
 import time
 # the .py we made
-import t
+import twc
 
 
 class TwitterClient():
@@ -48,9 +49,9 @@ class TwitterClient():
 class TwitterAuthenticator():
     def authenticate_twitter_app(self):
         # holds the consumer keys
-        auth = OAuthHandler(t.CONSUMER_KEY, t.CONSUMER_SECRET)
+        auth = OAuthHandler(twc.CONSUMER_KEY, twc.CONSUMER_SECRET)
         # holds the access tokens
-        auth.set_access_token(t.ACCESS_TOKEN, t.ACCESS_TOKEN_SECRET)
+        auth.set_access_token(twc.ACCESS_TOKEN, twc.ACCESS_TOKEN_SECRET)
         return auth
 
 
@@ -195,12 +196,12 @@ if __name__ == "__main__":
                 # some trends dont come with number from the api so they are set to None by default
                 print(trending_tweets_with_numbers[i])
 
-            fUser = open("textUser.txt", "w+")
+            fUser = open("text1User.txt", "w+")
             for i in range(0, user_amount):
                 trending_list.append(trends[0]['trends'][i]['name'])
                 fUser.write(str(trending_list[i]) + "\r")
             fUser.close()
-            word_cloud = stylecloud.gen_stylecloud(file_path='textUser.txt',
+            word_cloud = stylecloud.gen_stylecloud(file_path='text1User.txt',
                                                    icon_name='fas fa-cloud',
                                                    output_name='text_cloudUser.png',
                                                    colors=['blue', 'green', 'red', 'white', 'brown'],
@@ -225,11 +226,13 @@ if __name__ == "__main__":
                   "in a 24hr period to get on trending and [" + str(trending_numbers[-1]) + "] to be at the top")
             print(" ")
 
+            im_list =["bbcBreakingFigure.png", "text_cloud10.png",
+                      "text_cloud30.png", "text_cloud50.png", "text_cloudUser.png"]
+            for i in range(0, len(im_list)):
+                im = Image.open(im_list[i])
+                im.show()
+
             print("timer started to update wordclouds(10mins, 30mins and 60mins)")
-
-
-
-
 
         print("timer elapsed: " + str(timer_counter))
         time.sleep(60)
