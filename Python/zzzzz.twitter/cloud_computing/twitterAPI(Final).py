@@ -13,40 +13,8 @@ import time
 import twc
 
 
-class TwitterClient():
-    # None defaults to your own timeline however if something is put in there then it will gab theirs
-    def __init__(self, twitter_user=None):
-        self.auth = TwitterAuthenticator().authenticate_twitter_app()
-        self.twitter_client = API(self.auth)
-        self.twitter_user = twitter_user
-
-    def get_twitter_client_api(self):
-        return self.twitter_client
-
-    # limits the number of tweets to show and interact with
-    def get_user_timeline_tweets(self, num_tweets):
-        tweets = []
-        # items tells the thing how many items from your timeline you want
-        # it saves them all in a list "tweets"
-        for tweet in Cursor(self.twitter_client.user_timeline, id=self.twitter_user).items(num_tweets):
-            tweets.append(tweet)
-            return tweets
-
-    def get_friend_list(self, num_friends):
-        friend_list = []
-        for friend in Cursor(self.twitter_client.friends, id=self.twitter_user).items(num_friends):
-            friend_list.append(friend)
-            return friend_list
-
-    def get_home_timeline_tweets(self, num_tweets):
-        home_timeline_tweets = []
-        for tweet in Cursor(self.twitter_client.home_timeline, id=self.twitter_user).items(num_tweets):
-            home_timeline_tweets.append(tweet)
-            return home_timeline_tweets
-
-
-# zzzzz.twitter authenticator
-class TwitterAuthenticator():
+# twitter authenticator
+class TwitterAuthenticator:
     def authenticate_twitter_app(self):
         # holds the consumer keys
         auth = OAuthHandler(twc.CONSUMER_KEY, twc.CONSUMER_SECRET)
@@ -55,7 +23,7 @@ class TwitterAuthenticator():
         return auth
 
 
-class TwitterStreamer():
+class TwitterStreamer:
     def __init__(self):
         self.twitter_authenticator = TwitterAuthenticator()
 
@@ -87,18 +55,49 @@ class TwitterListener(StreamListener):
             print("error on data: "+ str(e))
             return True
 
-
     # happens if there is an error from the streamlistener
     def on_error(self, status):
-        # this is an error code zzzzz.twitter gives you if your pulling too much to fast
+        # this is an error code twitter gives you if your pulling too much to fast
         # they put you on timeout first time but eventually they will just block you
         # returning false kills it
         if status == 420:
             return False
-        print(status)
+        print(status + "pulling too fast")
 
 
-class TweetAnalyser():
+class TwitterClient:
+    # None defaults to your own timeline however if something is put in there then it will gab theirs
+    def __init__(self, twitter_user=None):
+        self.auth = TwitterAuthenticator().authenticate_twitter_app()
+        self.twitter_client = API(self.auth)
+        self.twitter_user = twitter_user
+
+    def get_twitter_client_api(self):
+        return self.twitter_client
+
+    # limits the number of tweets to show and interact with
+    def get_user_timeline_tweets(self, num_tweets):
+        tweets = []
+        # items tells the thing how many items from your timeline you want
+        # it saves them all in a list "tweets"
+        for tweet in Cursor(self.twitter_client.user_timeline, id=self.twitter_user).items(num_tweets):
+            tweets.append(tweet)
+            return tweets
+
+    def get_friend_list(self, num_friends):
+        friend_list = []
+        for friend in Cursor(self.twitter_client.friends, id=self.twitter_user).items(num_friends):
+            friend_list.append(friend)
+            return friend_list
+
+    def get_home_timeline_tweets(self, num_tweets):
+        home_timeline_tweets = []
+        for tweet in Cursor(self.twitter_client.home_timeline, id=self.twitter_user).items(num_tweets):
+            home_timeline_tweets.append(tweet)
+            return home_timeline_tweets
+
+
+class TweetAnalyser:
     # functionality for analyzing and catagorizing content from tweets
     def tweets_to_data_frame(self, tweets):
         df = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['Tweets'])
@@ -216,7 +215,7 @@ if __name__ == "__main__":
             time_retweets.plot(figsize=(10, 4), color='red', label="retweets", legend=True)
             time_fav_count = pd.Series(data=df['likes'].values, index=df['date'])
             time_fav_count.plot(figsize=(10, 4), color='blue', label="likes", legend=True,
-                                title="BBC Breaking News zzzzz.twitter metrics")
+                                title="BBC Breaking News twitter metrics")
             plt.savefig("bbcBreakingFigure.png")
 
             print(" ")
