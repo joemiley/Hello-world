@@ -12,4 +12,4 @@ Y = 100
 window_width = 500
 window_height = 500
 image = pyautogui.screenshot(region=(X, Y, window_width, window_height))
-image.save(r'C:\Users\Rando\Desktop\coding\Hello-world\python\z.bot\image_0.png')
+image.save(r'.\image_0.png')
