@@ -11,5 +11,5 @@ X = 100
 Y = 100
 window_width = 500
 window_height = 500
-image = pyautogui.screenshot(region=(X, Y, window_width, window_height))
+image = pyautogui.screenshot(region=(X, Y, width, height))
 image.save(r'.\image_0.png')
